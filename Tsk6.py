@@ -144,7 +144,7 @@ accuracy_score(y_test, y_pred)
 fn=['sepal length (cm)','sepal width (cm)','petal length (cm)','petal width (cm)']
 cn=['iris-setosa', 'iris-versicolor', 'iris-virginica']
 
-# Setting dpi = 300 to make image clearer than default
+
 fig, axes = plt.subplots(nrows = 0,ncols =0,figsize = (20,25), )
 
 tree.plot_tree(classifier.fit(X_train, y_train),
